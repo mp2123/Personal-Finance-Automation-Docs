@@ -1,0 +1,11 @@
+Transaction ID,Date,Name,Amount,Category,Account,Pending
+demo_income_2026_04_30_payroll,2026-04-30,DEMO PAYROLL - SAMPLE ONLY,4200.00,Income > Payroll,Demo Checking,FALSE
+demo_income_2026_05_15_payroll,2026-05-15,DEMO PAYROLL - SAMPLE ONLY,4200.00,Income > Payroll,Demo Checking,FALSE
+demo_expense_2026_05_01_rent,2026-05-01,DEMO RENT - SAMPLE ONLY,-1850.00,Rent & Utilities > Rent,Demo Checking,FALSE
+demo_expense_2026_05_02_utilities,2026-05-02,DEMO ELECTRIC UTILITY - SAMPLE ONLY,-164.32,Rent & Utilities > Gas & Electricity,Demo Credit Card,FALSE
+demo_expense_2026_05_03_grocery,2026-05-03,DEMO GROCERY MARKET - SAMPLE ONLY,-142.18,Food & Drink > Groceries,Demo Credit Card,FALSE
+demo_expense_2026_05_04_coffee,2026-05-04,DEMO COFFEE SHOP - SAMPLE ONLY,-18.47,Food & Drink > Restaurants,Demo Credit Card,FALSE
+demo_expense_2026_05_05_software,2026-05-05,DEMO SOFTWARE SUBSCRIPTION - SAMPLE ONLY,-49.00,Services > Software,Demo Credit Card,FALSE
+demo_expense_2026_05_06_transport,2026-05-06,DEMO RIDESHARE - SAMPLE ONLY,-32.84,Transportation > Taxi,Demo Credit Card,FALSE
+demo_expense_2026_05_07_health,2026-05-07,DEMO PHARMACY - SAMPLE ONLY,-27.39,Medical > Pharmacy,Demo Credit Card,FALSE
+demo_expense_2026_05_08_dining,2026-05-08,DEMO DINING - SAMPLE ONLY,-86.52,Food & Drink > Restaurants,Demo Credit Card,FALSE
