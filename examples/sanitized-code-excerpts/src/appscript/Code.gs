@@ -134,7 +134,7 @@ function chatWithData(query) {
 
   const apiKey = getGeminiApiKey_();
   if (!apiKey) {
-    return "Error: Paste your Gemini API key into Settings!B2 once. It will be stored securely after first use.";
+    return 'Error: Configure the AI provider key in private settings before using the assistant.';
   }
 
   const model = buildAnalyticsModel_(records);
@@ -188,7 +188,7 @@ function chatWithData(query) {
   } catch (e) {
     if (isGeminiApiKeyError_(e)) {
       clearGeminiKeyStorage_();
-      return 'AI Error: Gemini rejected the stored API key. I cleared the stored key. Paste your current Gemini API key into Settings!B2, then run 🏦 Bank Automation -> 📈 Refresh Dashboard & Visuals or ask again from the sidebar.';
+      return 'AI Error: The configured AI provider key was rejected. Clear and reconfigure it privately, then refresh the dashboard or ask again from the sidebar.';
     }
 
     if (groundedPacket) {
@@ -3198,7 +3198,7 @@ function ensureGeminiKeyStatus_() {
 
 function resetGeminiKeyStorage() {
   clearGeminiKeyStorage_();
-  SpreadsheetApp.getUi().alert('Gemini key storage cleared. Paste your current Gemini API key into Settings!B2, save the cell, then open the sidebar or refresh visuals.');
+  SpreadsheetApp.getUi().alert('AI provider key storage cleared. Reconfigure the key privately, then open the sidebar or refresh visuals.');
 }
 
 function clearGeminiKeyStorage_() {
