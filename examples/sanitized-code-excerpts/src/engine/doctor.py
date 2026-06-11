@@ -13,9 +13,9 @@ from .plaid_client import PlaidClient
 from .sheets_client import SheetsClient
 
 
-CURRENT_ROOT = Path('/Users/michaelpanico/Desktop/DevBase/active_projects/Danny_Bank_Automation')
-QUICKSTART_PYTHON_DIR = Path('/Users/michaelpanico/Desktop/quickstart/python')
-OLD_MAC_PRO_PATH = '/Users/michael_s_panico'
+CURRENT_ROOT = Path('/path/to/private/personal-finance-automation')
+QUICKSTART_PYTHON_DIR = Path('/path/to/private/plaid-quickstart/python')
+OLD_MAC_PRO_PATH = '/path/to/old/local/home'
 PLAID_OAUTH_STATUS_URL = 'https://dashboard.plaid.com/activity/status/oauth-institutions'
 
 

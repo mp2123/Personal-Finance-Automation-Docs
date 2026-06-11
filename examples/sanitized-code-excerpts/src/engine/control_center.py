@@ -100,7 +100,7 @@ def build_appscript_redeploy_checklist():
 
 def build_quickstart_repair_command():
     return '\n'.join([
-        'cd /Users/michaelpanico/Desktop/quickstart/python',
+        'cd /path/to/private/plaid-quickstart/python',
         '/bin/rm -rf -- ./venv',
         'python3 -m venv venv',
         './venv/bin/python -m pip install --upgrade pip',
@@ -108,7 +108,7 @@ def build_quickstart_repair_command():
         './venv/bin/python server.py',
         '',
         'Then start the frontend in another Terminal:',
-        'cd /Users/michaelpanico/Desktop/quickstart/frontend',
+        'cd /path/to/private/plaid-quickstart/frontend',
         'npm start',
     ])
 
@@ -149,7 +149,7 @@ def build_self_serve_setup_commands():
     return [
         {
             'label': 'Start Control Center',
-            'command': 'cd /Users/michaelpanico/Desktop/DevBase/active_projects/Danny_Bank_Automation\n.venv/bin/python -m src.engine.control_center',
+            'command': 'cd /path/to/private/personal-finance-automation\n.venv/bin/python -m src.engine.control_center',
             'detail': 'Open the local control center at 127.0.0.1:8790.',
         },
         {
