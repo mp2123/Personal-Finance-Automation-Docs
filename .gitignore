@@ -1,0 +1,12 @@
+.DS_Store
+__pycache__/
+.venv/
+*.log
+
+# Keep public docs shells free of local runtime output.
+.env
+.env.*
+*.sqlite
+*.db
+dist/
+build/

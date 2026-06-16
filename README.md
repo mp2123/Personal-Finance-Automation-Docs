@@ -18,6 +18,14 @@ This repository documents the architecture, the analytics model, the privacy bou
 - [Sample Data Fixtures](./examples/sample_data/): Synthetic CSV fixtures used for local "Demo Mode" dry-runs without hitting live banking APIs.
 - [Sanitized Code Excerpts](./examples/sanitized-code-excerpts/): Safe excerpts of the Python Sync Engine (`src/engine`) and the Apps Script UI (`src/appscript`), proving the technical integration pattern while masking private deployment IDs.
 
+## Related Public Proof Shells
+
+This repository is the public-safe docs shell for a private local-first finance automation project. Private implementation repos, Plaid tokens, live financial records, spreadsheet IDs, Apps Script deployment IDs, and local runtime state are intentionally not linked publicly.
+
+- [Portfolio project page](https://www.michaelspanico.com/projects/personal-finance-automation)
+- [Portfolio Website Docs](https://github.com/mp2123/Portfolio-Website-Docs)
+- [Michael Panico GitHub profile](https://github.com/mp2123)
+
 ## Architecture Overview
 
 ```mermaid
@@ -44,4 +52,4 @@ This public repository will not include:
 
 ## Status
 
-This is a **Documentation Shell** for portfolio and recruiter review. The private system is fully active in a local environment.
+This is a **Documentation Shell** for portfolio and recruiter review. The private system remains local/private; this public repo documents the architecture, demo-mode behavior, and privacy boundary without publishing live financial data or provider state.
