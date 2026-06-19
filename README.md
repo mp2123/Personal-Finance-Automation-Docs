@@ -52,4 +52,4 @@ This public repository will not include:
 
 ## Status
 
-This is a **Documentation Shell** for portfolio and recruiter review. The private system remains local/private; this public repo documents the architecture, demo-mode behavior, and privacy boundary without publishing live financial data or provider state.
+This is a **Documentation Shell** for portfolio and professional review. The private system remains local/private; this public repo documents the architecture, demo-mode behavior, and privacy boundary without publishing live financial data or provider state.
